@@ -1,0 +1,150 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.top-section {
+  height: 500px;
+  padding-bottom: 150px;
+}
+.my-mission-section {
+  height: 500px;
+  padding-bottom: 150px;
+}
+.third-section {
+  height: 500px;
+  padding-bottom: 150px;
+}
+.fourth-section {
+  height: 500px;
+  padding-bottom: 150px;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 100px;
+  margin-top: 80px;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 80%;
+}
+.half-width h1 {
+  font-family: "Yeseva One", cursive;
+  font-size: 60px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.explore-now-btn {
+  font-weight: 500;
+  padding: 15px 40px;
+  background-color: #ff5959;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.half-width p {
+  color: #3e3e3e;
+  font-size: 18px;
+}
+.half-width span {
+  color: #ffad5a;
+}
+
+.left-border {
+  border-left-style: solid;
+  border-color: #ff5959;
+  border-width: 4px;
+}
+.my-mission-section h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+.my-mission-section span {
+  color: #ffad5a;
+}
+.my-mission-section img {
+  width: 50%;
+}
+.my-mission-div {
+  margin-left: 10%;
+}
+.mission-div {
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 26px;
+  height: 380px;
+  width: 360px;
+  float: left;
+  margin-left: 24px;
+  padding: 30px;
+}
+.vision-div {
+  background: rgba(255, 89, 89, 0.1);
+  border-radius: 26px;
+  height: 380px;
+  width: 360px;
+  float: left;
+  margin-left: 24px;
+  padding: 30px;
+}
+.goals-div {
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 26px;
+  height: 380px;
+  width: 360px;
+  float: left;
+  margin-left: 24px;
+  padding: 30px;
+}
+.third-section {
+  align-items: center;
+  justify-content: center;
+}
+.image-div {
+  width: 30%;
+  float: left;
+  margin-left: 100px;
+  margin-top: 80px;
+  padding-left: 2%;
+}
+.image-div img {
+  width: 100%;
+}
+.desc-div {
+  width: 50%;
+  float: left;
+  margin-left: 100px;
+  margin-top: 80px;
+  padding-left: 2%;
+}
+.desc-div h1 {
+  font-size: 36px;
+}
+.blue-btn {
+  margin-top: 15px;
+  position: absolute;
+  padding: 15px 40px;
+  background-color: #ff5959;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+footer {
+  background-color: #0b0d17;
+  height: 180px;
+  text-align: center;
+  padding: 10px 0;
+}
+footer h2 {
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-size: 36px;
+  color: white;
+}
+footer span {
+  color: #ff5959;
+}
+footer p {
+  color: white;
+  font-size: 14px;
+}
