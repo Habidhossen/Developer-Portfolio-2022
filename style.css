@@ -4,19 +4,45 @@ body {
 }
 .top-section {
   height: 500px;
-  padding-bottom: 150px;
+  padding-bottom: 125px;
 }
 .my-mission-section {
   height: 500px;
-  padding-bottom: 150px;
+  padding-bottom: 125px;
 }
 .third-section {
   height: 500px;
-  padding-bottom: 150px;
+  padding-bottom: 125px;
 }
 .fourth-section {
   height: 500px;
-  padding-bottom: 150px;
+  padding-bottom: 125px;
+}
+.bonus-section {
+  text-align: center;
+  height: 500px;
+  margin-bottom: 0;
+}
+.bonus-section h1 {
+  font-size: 36px;
+  border-bottom: 4px solid dodgerblue;
+  display: inline-block;
+}
+.bonus-section p {
+  margin-bottom: 50px;
+}
+.bonus-div {
+  margin-left: 100px;
+  padding-left: 2%;
+  width: 80%;
+}
+.bonus-button {
+  font-weight: 500;
+  padding: 15px 30px;
+  color: dodgerblue;
+  border-radius: 10px;
+  border: 1px solid dodgerblue;
+  text-decoration: none;
 }
 .half-width {
   width: 40%;
@@ -33,11 +59,12 @@ body {
   font-size: 60px;
   font-weight: 400;
   margin-left: 10px;
+  margin-bottom: 15px;
 }
-.explore-now-btn {
+.button {
   font-weight: 500;
   padding: 15px 40px;
-  background-color: #ff5959;
+  background-color: dodgerblue;
   color: white;
   border-radius: 5px;
   text-decoration: none;
@@ -45,15 +72,14 @@ body {
 .half-width p {
   color: #3e3e3e;
   font-size: 18px;
+  margin-bottom: 40px;
+  margin-top: 30px;
 }
 .half-width span {
-  color: #ffad5a;
+  color: cornflowerblue;
 }
-
 .left-border {
-  border-left-style: solid;
-  border-color: #ff5959;
-  border-width: 4px;
+  border-left: 4px solid dodgerblue;
 }
 .my-mission-section h1 {
   text-align: center;
@@ -61,37 +87,36 @@ body {
   font-weight: 700;
 }
 .my-mission-section span {
-  color: #ffad5a;
+  color: cornflowerblue;
 }
 .my-mission-section img {
   width: 50%;
 }
 .my-mission-div {
-  margin-left: 10%;
+  margin-left: 9%;
 }
 .mission-div {
   background: rgba(79, 157, 166, 0.1);
   border-radius: 26px;
   height: 380px;
-  width: 360px;
+  width: 300px;
   float: left;
-  margin-left: 24px;
   padding: 30px;
 }
 .vision-div {
   background: rgba(255, 89, 89, 0.1);
   border-radius: 26px;
   height: 380px;
-  width: 360px;
+  width: 300px;
   float: left;
   margin-left: 24px;
   padding: 30px;
 }
 .goals-div {
-  background: rgba(79, 157, 166, 0.1);
+  background: #fff4d6;
   border-radius: 26px;
   height: 380px;
-  width: 360px;
+  width: 300px;
   float: left;
   margin-left: 24px;
   padding: 30px;
@@ -111,7 +136,7 @@ body {
   width: 100%;
 }
 .desc-div {
-  width: 50%;
+  width: 40%;
   float: left;
   margin-left: 100px;
   margin-top: 80px;
@@ -120,14 +145,8 @@ body {
 .desc-div h1 {
   font-size: 36px;
 }
-.blue-btn {
-  margin-top: 15px;
-  position: absolute;
-  padding: 15px 40px;
-  background-color: #ff5959;
-  color: white;
-  border-radius: 5px;
-  text-decoration: none;
+.desc-text {
+  margin-bottom: 40px;
 }
 footer {
   background-color: #0b0d17;
@@ -142,7 +161,7 @@ footer h2 {
   color: white;
 }
 footer span {
-  color: #ff5959;
+  color: dodgerblue;
 }
 footer p {
   color: white;
